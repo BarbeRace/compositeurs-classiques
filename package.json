@@ -1,0 +1,22 @@
+{
+    "name": "composer-mindmap",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "cytoscape": "^3.23.0",
+        "cytoscape-cola": "^2.4.0",
+        "gsap": "^3.12.0",
+        "popper.js": "^1.16.1",
+        "tippy.js": "^6.3.7",
+        "vue": "^3.3.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^6.0.4",
+        "vite": "^5.0.0"
+    }
+}

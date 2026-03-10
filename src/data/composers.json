@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {"id":"mozart","label":"Wolfgang Amadeus Mozart","era":"Classical","movement":"Viennese School","works":["Symphonie No.40","Don Giovanni"],"image":"/public/images/mozart.jpg"},
+    {"id":"haydn","label":"Joseph Haydn","era":"Classical","movement":"Viennese School","works":["Symphonie No.94","String Quartets"],"image":"/public/images/haydn.jpg"},
+    {"id":"beethoven","label":"Ludwig van Beethoven","era":"Classical/Romantic","movement":"Transitional","works":["Symphonie No.9","Fur Elise"],"image":"/public/images/beethoven.jpg"}
+  ],
+  "edges": [
+    {"source":"mozart","target":"haydn","weight":0.9},
+    {"source":"mozart","target":"beethoven","weight":0.6},
+    {"source":"haydn","target":"beethoven","weight":0.5}
+  ]
+}
