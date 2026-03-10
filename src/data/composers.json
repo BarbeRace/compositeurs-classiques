@@ -1,12 +1,763 @@
 {
   "nodes": [
-    {"id":"mozart","label":"Wolfgang Amadeus Mozart","era":"Classical","movement":"Viennese School","works":["Symphonie No.40","Don Giovanni"],"image":"/public/images/mozart.jpg"},
-    {"id":"haydn","label":"Joseph Haydn","era":"Classical","movement":"Viennese School","works":["Symphonie No.94","String Quartets"],"image":"/public/images/haydn.jpg"},
-    {"id":"beethoven","label":"Ludwig van Beethoven","era":"Classical/Romantic","movement":"Transitional","works":["Symphonie No.9","Fur Elise"],"image":"/public/images/beethoven.jpg"}
+    {
+      "id": "era:markmap-colorfreezelevel-3",
+      "label": "markmap:\n  colorFreezeLevel: 3",
+      "era": "meta",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "era:baroque",
+      "label": "**Baroque**",
+      "era": "meta",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "johannes-bach-1685-1750",
+      "label": "Johannes Bach (1685-1750)",
+      "era": "**Baroque**",
+      "movement": "",
+      "works": [
+        "Toccata et Fugue en ré mineur, BWV 5651.",
+        "Jésus, que ma joie demeure, BWV 1471.",
+        "Concerto brandebourgeois n° 3 en sol majeur, BWV 10481.",
+        "Variations Goldberg, BWV 9881.",
+        "Messe en si mineur, BWV 2321.",
+        "Le Clavier bien tempéré, BWV 846-8931.",
+        "Concerto pour deux violons en ré mineur, BWV 10431.",
+        "Passion selon saint Matthieu, BWV 2441.",
+        "Passion selon saint Jean, BWV 2451.",
+        "Oratorio de Noël, BWV 2481."
+      ],
+      "image": ""
+    },
+    {
+      "id": "era:classicisme",
+      "label": "**Classicisme**",
+      "era": "meta",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "ludwig-van-beethoven-1770-1827",
+      "label": "Ludwig van Beethoven (1770-1827)",
+      "era": "**Classicisme**",
+      "movement": "",
+      "works": [
+        "Symphonie n° 9 en ré mineur, Op. 125 “Choral”",
+        "Sonate pour piano n° 14 en ut dièse mineur, Op. 27, n° 2 “Clair de lune”",
+        "Concerto pour piano n° 5 en mi bémol majeur, Op. 73 “Empereur”",
+        "Quatuor à cordes n° 14 en ut dièse mineur, Op. 131",
+        "Symphonie n° 5 en ut mineur, Op. 67",
+        "Sonate pour violon et piano n° 9 en la majeur, Op. 47 “À Kreutzer”",
+        "Concerto pour violon en ré majeur, Op. 61",
+        "Bagatelles pour piano, Op. 126",
+        "Missa Solemnis en ré majeur, Op. 123"
+      ],
+      "image": ""
+    },
+    {
+      "id": "wolfgang-amadeus-mozart-1756-1791",
+      "label": "Wolfgang Amadeus Mozart (1756-1791)",
+      "era": "**Classicisme**",
+      "movement": "",
+      "works": [
+        "Symphonie n° 40 en sol mineur, K. 550",
+        "Concerto pour piano n° 21 en ut majeur, K. 467",
+        "Don Giovanni (opéra)",
+        "Requiem en ré mineur, K. 626",
+        "Sonate pour piano n° 11 en la majeur, K. 331 “Alla Turca”",
+        "Quatuor à cordes n° 19 en ut majeur, K. 465 “Dissonances”",
+        "Concerto pour clarinette en la majeur, K. 622",
+        "Les noces de Figaro (opéra)",
+        "Sérénade pour cordes en sol majeur, K. 525 “Petite musique de nuit”",
+        "Sonate pour violon et piano en mi mineur, K. 304"
+      ],
+      "image": ""
+    },
+    {
+      "id": "era:romantisme",
+      "label": "**Romantisme**",
+      "era": "meta",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "felix-mendelssohn-1809-1847",
+      "label": "Felix Mendelssohn (1809-1847)",
+      "era": "**Romantisme**",
+      "movement": "",
+      "works": [
+        "Symphonie n° 4 en la majeur, Op. 90 “Italienne”",
+        "Concerto pour violon en mi mineur, Op. 64",
+        "Songe d’une nuit d’été (Ouverture)",
+        "Les Hébrides (Ouverture)",
+        "Romances sans paroles (Lieder ohne Worte)"
+      ],
+      "image": ""
+    },
+    {
+      "id": "frédéric-chopin-1810-1849",
+      "label": "Frédéric Chopin (1810-1849)",
+      "era": "**Romantisme**",
+      "movement": "",
+      "works": [
+        "Concerto pour piano n° 1 en mi mineur, Op. 11",
+        "Nocturnes (série de pièces pour piano)",
+        "Ballades pour piano",
+        "Études (série de pièces pour piano)",
+        "Polonaises pour piano"
+      ],
+      "image": ""
+    },
+    {
+      "id": "franz-liszt-1811-1886",
+      "label": "Franz Liszt (1811-1886)",
+      "era": "**Romantisme**",
+      "movement": "",
+      "works": [
+        "Années de pèlerinage (Voyages en Suisse, Italie et ailleurs)",
+        "Sonate en si mineur pour piano",
+        "Rhapsodies hongroises pour piano",
+        "Transcendental Études pour piano",
+        "Légendes pour piano"
+      ],
+      "image": ""
+    },
+    {
+      "id": "hector-berlioz-1803-1869",
+      "label": "Hector Berlioz (1803-1869)",
+      "era": "**Romantisme**",
+      "movement": "",
+      "works": [
+        "Symphonie fantastique",
+        "Harold en Italie (symphonie avec alto solo)",
+        "Roméo et Juliette (symphonie dramatique)",
+        "Grande Messe des Morts (Requiem)",
+        "La Damnation de Faust (légende dramatique)"
+      ],
+      "image": ""
+    },
+    {
+      "id": "robert-schumann-1810-1856",
+      "label": "Robert Schumann (1810-1856)",
+      "era": "**Romantisme**",
+      "movement": "",
+      "works": [
+        "Carnaval (pièces pour piano)",
+        "Kreisleriana (pièces pour piano)",
+        "Kinderszenen (Scènes d’enfants pour piano)",
+        "Études symphoniques (variations pour piano)",
+        "Concerto pour piano en la mineur, Op. 54"
+      ],
+      "image": ""
+    },
+    {
+      "id": "franz-schubert-1797-1828",
+      "label": "Franz Schubert (1797-1828)",
+      "era": "**Romantisme**",
+      "movement": "",
+      "works": [
+        "Symphonie n° 8 en si mineur, D. 759 “Inachevée”",
+        "Symphonie n° 9 en ut majeur, D. 944 “La Grande”",
+        "Quatuor à cordes n° 14 en ré mineur, D. 810 “La Jeune Fille et la Mort”",
+        "Impromptus pour piano, Op. 90 et Op. 142",
+        "Sonates pour piano, notamment la Sonate en la majeur, D. 959"
+      ],
+      "image": ""
+    },
+    {
+      "id": "carl-maria-von-weber-1786-1826",
+      "label": "Carl Maria von Weber (1786-1826)",
+      "era": "**Romantisme**",
+      "movement": "",
+      "works": [
+        "Opéra “Der Freischütz”",
+        "Concerto pour clarinette n° 1 en fa mineur, Op. 73",
+        "Concertino pour basson en mi bémol majeur, Op. 26",
+        "Ouverture “Der Beherrscher der Geister” (“Le Maître des Esprits”), J. 122",
+        "Quintette avec clarinette en si bémol majeur, J. 182"
+      ],
+      "image": ""
+    },
+    {
+      "id": "era:post-romantisme",
+      "label": "**Post-Romantisme**",
+      "era": "meta",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "gabriel-fauré-1845-1924",
+      "label": "Gabriel Fauré (1845-1924)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Ballade, Op. 19",
+        "13 Barcarolles",
+        "Dolly : Six pièces pour piano à 4 mains, Op. 56",
+        "Pavane, Op. 50",
+        "Requiem en ré mineur, Op. 48"
+      ],
+      "image": ""
+    },
+    {
+      "id": "modeste-moussorgski-1839-1881",
+      "label": "Modeste Moussorgski (1839-1881)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Les Tableaux d’une exposition",
+        "Une nuit sur le mont Chauve",
+        "Boris Godounov",
+        "La Khovanchtchina",
+        "La Foire de Sorotchinsky"
+      ],
+      "image": ""
+    },
+    {
+      "id": "camille-saint-saëns-1835-1921",
+      "label": "Camille Saint-Saëns (1835-1921)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Prélude, Choral et Fugue",
+        "Variations symphoniques, pour piano et orchestre",
+        "Sonate pour piano et violon",
+        "Symphonie en « ré » mineur",
+        "Trois Chorals, pour orgue"
+      ],
+      "image": ""
+    },
+    {
+      "id": "alexandre-borodine-1833-1887",
+      "label": "Alexandre Borodine (1833-1887)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Danses Polovtsiennes du Prince Igor",
+        "Dans les steppes de l’Asie centrale",
+        "Quatuor à cordes n°2, 3ème mouvement « Notturno »"
+      ],
+      "image": ""
+    },
+    {
+      "id": "andré-messager-1853-1929",
+      "label": "André Messager (1853-1929)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Véronique",
+        "Béatrice",
+        "Monsieur Beaucaire",
+        "Coups de roulis"
+      ],
+      "image": ""
+    },
+    {
+      "id": "césar-franck-1822-1890",
+      "label": "César Franck (1822-1890)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Prélude, Choral et Fugue, pour piano",
+        "Variations symphoniques, pour piano et orchestre",
+        "Sonate pour piano et violon",
+        "Symphonie en « ré » mineur",
+        "Trois Chorals, pour orgue"
+      ],
+      "image": ""
+    },
+    {
+      "id": "nikolaï-rimski-korsakov-1844-1908",
+      "label": "Nikolaï Rimski-Korsakov (1844-1908)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Shéhérazade",
+        "Capriccio espagnol",
+        "La Grande Pâque russe",
+        "Le Coq d’or",
+        "La Légende de la ville invisible de Kitège et de la demoiselle Fevronia"
+      ],
+      "image": ""
+    },
+    {
+      "id": "georges-bizet-1838-1875",
+      "label": "Georges Bizet (1838-1875)",
+      "era": "**Post-Romantisme**",
+      "movement": "",
+      "works": [
+        "Carmen",
+        "Symphonie en ut majeur",
+        "L’Arlésienne – Suites nos 1 et 2",
+        "Jeux d’enfants",
+        "Les Pêcheurs de perles"
+      ],
+      "image": ""
+    },
+    {
+      "id": "era:impressionisme",
+      "label": "**Impressionisme**",
+      "era": "meta",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "claude-debussy-1862-1918",
+      "label": "Claude Debussy (1862-1918)",
+      "era": "**Impressionisme**",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "maurice-ravel-1875-1937",
+      "label": "Maurice Ravel (1875-1937)",
+      "era": "**Impressionisme**",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "era:moderne-xx",
+      "label": "**Moderne** xx",
+      "era": "meta",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "sergei-rachmaninov-1873-1943",
+      "label": "Sergei Rachmaninov (1873-1943)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "francis-poulenc-1899-1963",
+      "label": "Francis Poulenc (1899-1963)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "igor-stravinsky-1882-1971",
+      "label": "Igor Stravinsky (1882-1971)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "olivier-messiaen-1908-1992",
+      "label": "Olivier Messiaen (1908-1992)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "sergei-prokofiev-1891-1953",
+      "label": "Sergei Prokofiev (1891-1953)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "béla-bartók-1881-1945",
+      "label": "Béla Bartók (1881-1945)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "george-gershwin-1898-1937",
+      "label": "George Gershwin (1898-1937)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "aram-khatchatourian-1903-1978",
+      "label": "Aram Khatchatourian (1903-1978)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "dmitri-chostakovitch-1906-1975",
+      "label": "Dmitri Chostakovitch (1906-1975)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "arthur-honegger-1892-1955",
+      "label": "Arthur Honegger (1892-1955)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "darius-milhaud-1892-1974",
+      "label": "Darius Milhaud (1892-1974)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "jacques-ibert-1890-1962",
+      "label": "Jacques Ibert (1890-1962)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "philip-glass-1937",
+      "label": "Philip Glass (1937-)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    },
+    {
+      "id": "iannis-xenakis-1922-2001",
+      "label": "Iannis Xenakis (1922-2001)",
+      "era": "**Moderne** xx",
+      "movement": "",
+      "works": [],
+      "image": ""
+    }
   ],
   "edges": [
-    {"source":"mozart","target":"haydn","weight":0.9},
-    {"source":"mozart","target":"beethoven","weight":0.6},
-    {"source":"haydn","target":"beethoven","weight":0.5}
+    {
+      "source": "johannes-bach-1685-1750",
+      "target": "era:baroque",
+      "weight": 0.6
+    },
+    {
+      "source": "ludwig-van-beethoven-1770-1827",
+      "target": "era:classicisme",
+      "weight": 0.6
+    },
+    {
+      "source": "wolfgang-amadeus-mozart-1756-1791",
+      "target": "era:classicisme",
+      "weight": 0.6
+    },
+    {
+      "source": "felix-mendelssohn-1809-1847",
+      "target": "era:romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "frédéric-chopin-1810-1849",
+      "target": "era:romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "franz-liszt-1811-1886",
+      "target": "era:romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "hector-berlioz-1803-1869",
+      "target": "era:romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "robert-schumann-1810-1856",
+      "target": "era:romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "franz-schubert-1797-1828",
+      "target": "era:romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "carl-maria-von-weber-1786-1826",
+      "target": "era:romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "gabriel-fauré-1845-1924",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "modeste-moussorgski-1839-1881",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "camille-saint-saëns-1835-1921",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "alexandre-borodine-1833-1887",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "andré-messager-1853-1929",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "césar-franck-1822-1890",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "nikolaï-rimski-korsakov-1844-1908",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "georges-bizet-1838-1875",
+      "target": "era:post-romantisme",
+      "weight": 0.6
+    },
+    {
+      "source": "claude-debussy-1862-1918",
+      "target": "era:impressionisme",
+      "weight": 0.6
+    },
+    {
+      "source": "maurice-ravel-1875-1937",
+      "target": "era:impressionisme",
+      "weight": 0.6
+    },
+    {
+      "source": "sergei-rachmaninov-1873-1943",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "francis-poulenc-1899-1963",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "igor-stravinsky-1882-1971",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "olivier-messiaen-1908-1992",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "sergei-prokofiev-1891-1953",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "béla-bartók-1881-1945",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "george-gershwin-1898-1937",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "aram-khatchatourian-1903-1978",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "dmitri-chostakovitch-1906-1975",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "arthur-honegger-1892-1955",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "darius-milhaud-1892-1974",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "jacques-ibert-1890-1962",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "philip-glass-1937",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "iannis-xenakis-1922-2001",
+      "target": "era:moderne-xx",
+      "weight": 0.6
+    },
+    {
+      "source": "ludwig-van-beethoven-1770-1827",
+      "target": "wolfgang-amadeus-mozart-1756-1791",
+      "weight": 0.2
+    },
+    {
+      "source": "felix-mendelssohn-1809-1847",
+      "target": "frédéric-chopin-1810-1849",
+      "weight": 0.2
+    },
+    {
+      "source": "frédéric-chopin-1810-1849",
+      "target": "franz-liszt-1811-1886",
+      "weight": 0.2
+    },
+    {
+      "source": "franz-liszt-1811-1886",
+      "target": "hector-berlioz-1803-1869",
+      "weight": 0.2
+    },
+    {
+      "source": "hector-berlioz-1803-1869",
+      "target": "robert-schumann-1810-1856",
+      "weight": 0.2
+    },
+    {
+      "source": "robert-schumann-1810-1856",
+      "target": "franz-schubert-1797-1828",
+      "weight": 0.2
+    },
+    {
+      "source": "franz-schubert-1797-1828",
+      "target": "carl-maria-von-weber-1786-1826",
+      "weight": 0.2
+    },
+    {
+      "source": "gabriel-fauré-1845-1924",
+      "target": "modeste-moussorgski-1839-1881",
+      "weight": 0.2
+    },
+    {
+      "source": "modeste-moussorgski-1839-1881",
+      "target": "camille-saint-saëns-1835-1921",
+      "weight": 0.2
+    },
+    {
+      "source": "camille-saint-saëns-1835-1921",
+      "target": "alexandre-borodine-1833-1887",
+      "weight": 0.2
+    },
+    {
+      "source": "alexandre-borodine-1833-1887",
+      "target": "andré-messager-1853-1929",
+      "weight": 0.2
+    },
+    {
+      "source": "andré-messager-1853-1929",
+      "target": "césar-franck-1822-1890",
+      "weight": 0.2
+    },
+    {
+      "source": "césar-franck-1822-1890",
+      "target": "nikolaï-rimski-korsakov-1844-1908",
+      "weight": 0.2
+    },
+    {
+      "source": "nikolaï-rimski-korsakov-1844-1908",
+      "target": "georges-bizet-1838-1875",
+      "weight": 0.2
+    },
+    {
+      "source": "claude-debussy-1862-1918",
+      "target": "maurice-ravel-1875-1937",
+      "weight": 0.2
+    },
+    {
+      "source": "sergei-rachmaninov-1873-1943",
+      "target": "francis-poulenc-1899-1963",
+      "weight": 0.2
+    },
+    {
+      "source": "francis-poulenc-1899-1963",
+      "target": "igor-stravinsky-1882-1971",
+      "weight": 0.2
+    },
+    {
+      "source": "igor-stravinsky-1882-1971",
+      "target": "olivier-messiaen-1908-1992",
+      "weight": 0.2
+    },
+    {
+      "source": "olivier-messiaen-1908-1992",
+      "target": "sergei-prokofiev-1891-1953",
+      "weight": 0.2
+    },
+    {
+      "source": "sergei-prokofiev-1891-1953",
+      "target": "béla-bartók-1881-1945",
+      "weight": 0.2
+    },
+    {
+      "source": "béla-bartók-1881-1945",
+      "target": "george-gershwin-1898-1937",
+      "weight": 0.2
+    },
+    {
+      "source": "george-gershwin-1898-1937",
+      "target": "aram-khatchatourian-1903-1978",
+      "weight": 0.2
+    },
+    {
+      "source": "aram-khatchatourian-1903-1978",
+      "target": "dmitri-chostakovitch-1906-1975",
+      "weight": 0.2
+    },
+    {
+      "source": "dmitri-chostakovitch-1906-1975",
+      "target": "arthur-honegger-1892-1955",
+      "weight": 0.2
+    },
+    {
+      "source": "arthur-honegger-1892-1955",
+      "target": "darius-milhaud-1892-1974",
+      "weight": 0.2
+    },
+    {
+      "source": "darius-milhaud-1892-1974",
+      "target": "jacques-ibert-1890-1962",
+      "weight": 0.2
+    },
+    {
+      "source": "jacques-ibert-1890-1962",
+      "target": "philip-glass-1937",
+      "weight": 0.2
+    },
+    {
+      "source": "philip-glass-1937",
+      "target": "iannis-xenakis-1922-2001",
+      "weight": 0.2
+    }
   ]
 }
